@@ -20,7 +20,8 @@ public class InputFieldHandler : MonoBehaviour
     {
         if (input == "1234")
         {
-            SceneManager.LoadScene("Cenas/Inicio");
+            GameManager.Instance.hasUnlockedBedroom = true;
+            SceneManager.LoadScene("Cenas/Quarto");
         }
     }
 
