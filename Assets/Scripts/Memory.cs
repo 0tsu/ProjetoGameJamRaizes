@@ -5,21 +5,16 @@ using UnityEngine.Rendering.Universal;
 public class Memory : MonoBehaviour
 {
     public string memoryText;  // The text description for this memory
+    [SerializeField] int pagenumber;
     public GameObject pagePrefab; // Reference to the Page prefab
     public Transform pageContainer; // Container where the Page prefab will be instantiated
-    private ColorAdjustments colorAdjustments;
-    public Volume globalVolume;
 
-    void Start()
-    {
-        globalVolume.profile.TryGet(out colorAdjustments);
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) // Assuming the player has a "Player" tag
         {
-            colorAdjustments.saturation.value += 25;
             // Add memory to the GameManager
             GameManager.Instance.AddMemory(this);
 
@@ -37,7 +32,7 @@ public class Memory : MonoBehaviour
         GameObject page = Instantiate(pagePrefab, pageContainer);
 
         // Set the image and text of the Page prefab
-        page.GetComponentInChildren<UnityEngine.UI.Text>().text = memoryText;
+        page.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = memoryText;
 
         return page;
     }
