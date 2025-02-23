@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Memory
   - Locker
+  - Sala
   layers:
   - Default
   - TransparentFX
