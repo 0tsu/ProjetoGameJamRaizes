@@ -252,7 +252,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6793152980323189123}
+  - {fileID: 4517952049748493997}
   - {fileID: 5025133371330991392}
   - {fileID: 6401248333280530858}
   m_Father: {fileID: 0}
@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 214e62926f828c843bd938a0b7f43de8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 2741713857518215608}
+  menu: {fileID: 0}
   pause: {fileID: 1220708316602836002}
 --- !u!95 &4113754629560012049
 Animator:
@@ -386,7 +386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeCanvasGroup: {fileID: 3429321733169225476}
   fadeDuration: 1.5
---- !u!1001 &1480173964509868176
+--- !u!1001 &8394287181650819006
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -396,11 +396,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3640637321118208296, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
       propertyPath: m_Name
-      value: Panel
-      objectReference: {fileID: 0}
-    - target: {fileID: 3640637321118208296, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      value: Menu
       objectReference: {fileID: 0}
     - target: {fileID: 5389826633344004371, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
       propertyPath: m_Pivot.x
@@ -482,26 +478,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5895496111900994227, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 9117487326092515011}
-    - target: {fileID: 8033897089536563800, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7552634647192610905}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
---- !u!1 &2741713857518215608 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3640637321118208296, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
-  m_PrefabInstance: {fileID: 1480173964509868176}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &6793152980323189123 stripped
+--- !u!224 &4517952049748493997 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5389826633344004371, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
-  m_PrefabInstance: {fileID: 1480173964509868176}
+  m_PrefabInstance: {fileID: 8394287181650819006}
   m_PrefabAsset: {fileID: 0}

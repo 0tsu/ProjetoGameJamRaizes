@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Cenas/Quarto.unity
     guid: 007613aa795c848eca152ff0180eb7db
-  - enabled: 1
-    path: Assets/Cenas/Sala.unity
+  - enabled: 0
+    path: Assets/Cenas/Inicio.unity
     guid: 6c29cd01459ab0242b202050125b5dd6
   m_configObjects: {}

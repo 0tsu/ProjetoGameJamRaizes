@@ -11,6 +11,7 @@ public class SceneTransition : MonoBehaviour
 
     void Start()
     {
+        fadeCanvasGroup.gameObject.SetActive(true);
         StartCoroutine(FadeIn());
     }
 
