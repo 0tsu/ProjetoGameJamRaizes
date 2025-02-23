@@ -1634,7 +1634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 81313922050191634, guid: e11fabc2517b38146b2ab49111f7d356, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Quarto
+      value: Sala
       objectReference: {fileID: 0}
     - target: {fileID: 81313922050191634, guid: e11fabc2517b38146b2ab49111f7d356, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

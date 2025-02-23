@@ -9,6 +9,10 @@ public class PlayerMoviment : MonoBehaviour
     private NavMeshAgent agent;
     private float playerScale;
     private Animator animator; // Add Animator reference
+    private GameObject sala;
+
+    private float previousXPosition; // Store the previous x position
+    private Camera mainCamera; // Reference to the camera
 
     void Start()
     {
@@ -53,15 +57,14 @@ public class PlayerMoviment : MonoBehaviour
 
         // Update the animator's Speed parameter based on movement
         UpdateMovementAnimation();
+
+        // Make the camera follow the player by adjusting its position
     }
 
     void UpdateMovementAnimation()
     {
         // Get the magnitude of the agent's velocity
         float speed = agent.velocity.magnitude;
-
-        // Log the speed value for debugging purposes
-        Debug.Log("Speed (magnitude): " + speed);         // Logs the magnitude (speed)
 
         // Update the Speed parameter in the Animator based on movement
         animator.SetFloat("Speed", speed);
@@ -72,7 +75,6 @@ public class PlayerMoviment : MonoBehaviour
         }
     }
 
-
     void SetFlip()
     {
         // Flip the player sprite based on movement direction
@@ -81,4 +83,5 @@ public class PlayerMoviment : MonoBehaviour
         else if (point.x > transform.position.x)
             transform.localScale = new Vector3(playerScale, playerScale, playerScale);
     }
+
 }
