@@ -17,12 +17,13 @@ public class PlayerMoviment : MonoBehaviour
         agent.updateRotation = false;
         agent.updateUpAxis = false;
         point = transform.position;
+
     }
 
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1)) {
+        if (Input.GetMouseButtonDown(0)) {
             point = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             SetFlip();
         }
