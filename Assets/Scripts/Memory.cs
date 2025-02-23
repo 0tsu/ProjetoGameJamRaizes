@@ -31,13 +31,15 @@ public class Memory : MonoBehaviour
         }
     }
 
-    private void DisplayMemoryPage()
+    public GameObject DisplayMemoryPage()
     {
         // Instantiate the Page prefab in the specified container
         GameObject page = Instantiate(pagePrefab, pageContainer);
 
         // Set the image and text of the Page prefab
         page.GetComponentInChildren<UnityEngine.UI.Text>().text = memoryText;
+
+        return page;
     }
 }
 
