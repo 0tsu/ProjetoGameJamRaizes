@@ -153,7 +153,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 967229514709058545}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 696da084c9f2248a78747296b52873cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c728188d51824add94b03ea597ecd40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  globalVolume: {fileID: 0}
+  memoryImage: {fileID: 0}
+  memoryText: 
+  pagePrefab: {fileID: 5888538393183010595, guid: 4a7d9a1caabbf43ca93fea0d04e354b1, type: 3}
+  pageContainer: {fileID: 0}
