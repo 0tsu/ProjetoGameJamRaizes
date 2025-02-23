@@ -12,7 +12,7 @@ public class OpenDiary : MonoBehaviour
         
     }
 
-    GameObject displayPage()
+    public GameObject displayPage()
     {
         return GameManager.Instance.collectedMemories[currentIndex].DisplayMemoryPage();
     }
