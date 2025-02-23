@@ -573,9 +573,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1103331902406517345, guid: 800ab48a5a88c4d43ac42f36df578a6c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1103331902406517345, guid: 800ab48a5a88c4d43ac42f36df578a6c, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1350040056432961276, guid: 800ab48a5a88c4d43ac42f36df578a6c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 97ce05ae48baa4bac883bcf710519833, type: 2}
     - target: {fileID: 2694994258020228665, guid: 800ab48a5a88c4d43ac42f36df578a6c, type: 3}
       propertyPath: m_BaseOffset
       value: 0
