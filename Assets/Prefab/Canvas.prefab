@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6401248333280530858
 RectTransform:
   m_ObjectHideFlags: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 214e62926f828c843bd938a0b7f43de8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menu: {fileID: 0}
+  menu: {fileID: 5113938451647866518}
   pause: {fileID: 1220708316602836002}
 --- !u!95 &4113754629560012049
 Animator:
@@ -397,6 +397,10 @@ PrefabInstance:
     - target: {fileID: 3640637321118208296, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
       propertyPath: m_Name
       value: Menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 3640637321118208296, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5389826633344004371, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
       propertyPath: m_Pivot.x
@@ -478,6 +482,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5895496111900994227, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 9117487326092515011}
+    - target: {fileID: 8033897089536563800, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7552634647192610905}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -486,5 +498,10 @@ PrefabInstance:
 --- !u!224 &4517952049748493997 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5389826633344004371, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
+  m_PrefabInstance: {fileID: 8394287181650819006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5113938451647866518 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3640637321118208296, guid: ebe143fe473b7e547ab213683e33320a, type: 3}
   m_PrefabInstance: {fileID: 8394287181650819006}
   m_PrefabAsset: {fileID: 0}

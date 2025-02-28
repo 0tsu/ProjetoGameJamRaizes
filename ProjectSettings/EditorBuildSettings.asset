@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Cenas/TelaInicial.unity
     guid: c0d77af7511790f47ba51669dc6780de
   - enabled: 1
+    path: Assets/Cenas/Sala.unity
+    guid: 57d13ee3118ed433f92968ef8b5d29be
+  - enabled: 1
     path: Assets/Cenas/CadeadoSala.unity
     guid: 107aa75547da74caa924da27719db07f
   - enabled: 1

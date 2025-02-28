@@ -12,7 +12,7 @@ public class OpenDiary : MonoBehaviour
         
     }
 
-    public GameObject displayPage()
+    /*public GameObject displayPage()
     {
         return GameManager.Instance.collectedMemories[currentIndex].DisplayMemoryPage();
     }
@@ -47,5 +47,5 @@ public class OpenDiary : MonoBehaviour
                 displayPage();
             }
         }
-    }
+    }*/
 }
